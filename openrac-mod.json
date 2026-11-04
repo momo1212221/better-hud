@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "mo",
   "license": "GPL-3.0-or-later",
   "api": "1.9",
@@ -12,30 +12,10 @@
   },
   "id": "better-hud",
   "name": "Better HUD",
-  "description": "Event-driven HUD notices for damage, item acquisition and newly unlocked planets without duplicating the game's native bolt display.",
+  "description": "Native RAC1-style status page with no duplicate bolt/health overlay.",
   "hooks": [
     "rac1.player.take_damage",
     "rac1.item.give",
     "rac1.planet.unlock"
-  ],
-  "settings": [
-    {
-      "key": "damage",
-      "name": "Damage notices",
-      "type": "bool",
-      "default": true
-    },
-    {
-      "key": "items",
-      "name": "Item notices",
-      "type": "bool",
-      "default": true
-    },
-    {
-      "key": "planets",
-      "name": "Planet unlock notices",
-      "type": "bool",
-      "default": true
-    }
   ]
 }
