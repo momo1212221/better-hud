@@ -2,9 +2,10 @@
 
 Adds short event-driven notices:
 - Health after damage
-- Bolt total after pickups
 - Item acquisition
 - Newly unlocked planets
+
+The game's native bolt display is left untouched; this mod does not add a second bolt counter.
 
 Messages clear automatically instead of permanently occupying the screen.
 
